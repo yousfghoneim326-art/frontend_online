@@ -1,0 +1,70 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(132, 0, 255);
+    color: #f40000;
+    margin: 50px;
+    /* margin: 10px ;
+    margin: 10px 20px;
+    margin: 10px 20px 30px;
+    margin: 10px 20px 30px 40px; */
+    /* margin-bottom: 20px;
+    margin-inline-start: 20px;
+    margin-left: 10px; */
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.container{
+    width: 400px;
+    background-color: rgb(255, 0, 200);
+    margin: 0 auto;
+}
+
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 187, 255);
+    color: #f40000;
+}
+
+.avatar{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(0, 187, 255);
+    color: #f40000;
+    /* border-radius:0% 100% 0% 100% / 0% 99% 1% 100%  ; */
+    /* border: 2px solid rgb(0, 0, 0); */
+    border: 1px dashed rgb(0, 0, 0);
+    /* border: 2px dotted rgb(0, 0, 0); */
+    /* border: 4px inset rgb(255, 5, 5); */
+    border-radius:74% 26% 68% 32% / 0% 99% 1% 100% ;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+    /* box-sizing: border-box; */
+/* }
+*{
+   border: 1px solid rgb(0, 0, 0);
+}
+body{
+    margin: 0px;
+} */
+
+.hero{
+    background-image:url(images/892224Image1.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+        /* padding: 200px 0; */
+    color: aliceblue;
+    margin: 300px 0;
+}
+
+.hero .overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 200px ;
+}

@@ -1,0 +1,38 @@
+/* External CSS */
+h2{
+    color: aqua;
+    font-size: 44px;
+}
+/* 
+a{
+    text-decoration: none;
+    color: rgb(203, 108, 26);
+} */
+
+#link.btn{
+    color: rgb(255, 10, 96);
+}
+
+p.btn{
+    color: #3c00ff;
+}
+
+div p{
+    color: rgb(136, 0, 255);
+}
+
+/* .box{
+    background-color: yellow;
+    height: 200px;
+} */
+
+.btn{
+    background-color: rgb(255, 0, 200);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(21, 0, 255);
+}
