@@ -3,81 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lec 2</title>
-    <style>
-        span{
-            color: rgb(226, 14, 14);
-        }
-    </style>
+    <title>lec 4</title>
+  
 </head>
 <body>
-    <h2><span>y</span>ousf <span>g</span>honeim</h2>
-    <h1>Heading-h1</h1>
-    <h2>Heading-h2</h2>
-    <h3>Heading-h3</h3>
-    <h4>Heading-h4</h4>
-    <h5>Heading-h5</h5>
-    <h6>Heading-h6</h6>
-    <hr>
-    <img src="images/yousf.jpg"alt="this is an imge for may daughter yousf" width="200">
-    <img src="images/1726422127620.jpg" alt="this is an imge for may daughter yousf"width="200px">
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Prices</th>
+                <th>total</th>    
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Twix</td>
+                <td>4</td>
+                <td>2.5</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>CocaCola</td>
+                <td>3</td>
+                <td>3.5</td>
+                <td>10</td>
+              
+            </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="3">Total</th>
+            <th>20</th>
+            </tr>
+        </tfoot>
 
 
+    </table>
+    <table border="1" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Header Column1</th>
+                <th>Header Column2</th>
+                <th>Header Column3</th>
+                <th>Header Column4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row2-Item1</td>
+                <td>Row2-Item2</td>
+                <td rowspan="2">
+                    <b>Row 3: Nested Table 1</b>
+                    <table border="1"><br
+                        <tbody>
+                            <tr>
+                                <th>Row 1 Header</th>
+                                <td>Item</td>
+                            </tr>
+                            <tr>
+                                <th>Row 2 Header</th>
+                                <td>Item</td>
+                            </tr>
+                            <tr>
+                                <th>Row 3 Header</th>
+                                <td>Item</td>
+                            </tr>
 
-    <hr>
+                        </tbody>
+                    </table>
+                <td>Row2-Item4</td>        
+            </tr>
+               <tr>
+                <td><b>Row 3: Nested Table 2</b><br>
+                     <table border="1">
+                        <tbody>
+                         <tr>
+                                <th>Row 1 Header</th>
+                                <td>Item</td>
+                            </tr>
+                            <tr>
+                                <th>Row 2 Header</th>
+                                <td>Item</td>
+                            </tr>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nisi, esse,
-    <br>harum quia ipsa vitae iure alias eaque similique illo sit cum blanditiis mollitia omnis<br> soluta, architecto ullam debitis repellendus voluptate repellat officiis cupiditate magni!<br> Ex ipsa ea unde, 
-      iste deserunt beatae exercitationem assumenda aliquid! Ad ipsam .</p>
-      <hr>
-      <h2>My Eduction</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae officia pariatur explicabo nam at impedit velit. Quas dicta cum aliquam?</p>
-    <b>b</b>
-    <strong>strong</strong>
-    <i>i</i>
-    <em>em</em>
-    <ins>ins</ins>
-    <del>del</del>
-    <sub>sub</sub>
-    <sup>sup</sup>
-    <small>small</small>
-    <big>big</big>
-    <mark>mark</mark>
-    <span>span</span>
+                        </tbody>
+                    </table>
+                </td>
+                <td>Row3-Item2</td>
+                <td rowspan="2">Row3-Item3</td>
+              
+            </tr>
+               <tr>
+                <td>Row4-Item1</td>
+                <td>Row4-Item2</td>
+                <td>Row4-Item3</td>    
+            </tr>
+               <tr>
+                <td colspan="4">Row5-Item1</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>level 1</th>
+                <th>level 2</th>
+                <th>level 3</th>
+                <th>Ifo</th>
+                <th>Nome</th>        
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td rowspan="6">System</td>
+            <td rowspan="4">Hardware</td>
+            <td rowspan="3">CPU</td>
+            <td>Intel Core i7</td>
+            <td>foo</td>
+            </tr>
+            <tr>
+                <td>App Memory</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+                <td>App Test</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+                <td>System Env2</td>
+                <td>CApp Test</td>
+                <td>bar</td>
+            </tr>
+            <tr>
+                <td rowspan="2">System Momery</td>
+                <td rowspan="2">App Test</td>
+                <td>Momery</td>
+                <td>Foo</td>
+            </tr>
+            <tr>
+               <td>App</td>
+                <td>Foo</td>
+            </tr>
+        </tbody>
+        
+    </table>
 
-    <p>Lorem ipsum dolor, sit <span>amet</span> consectetur adipisicing elit.
-     Recusandae non quia id, fugit <span>amet</span> accusamus mollitia unde
-      soluta eaque dolores <span>amet</span> velit perspiciatis eum 
-      inventore facilis! Inventore similique veniam delectus
-      odit iure non, possimus ducimus accusamus necessitatibus
-      sunt eaque. Ut et distinctio <span>amet</span> deserunt possimus
-      nobis autem <span>amet</span>, voluptatibus tempore.</p>
-      <hr>
+    <form method="get" action="" enctype="multipart/form-data">
+        <div>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+        </div>
+        <br>
+        <div>
+            <label for="age">Age</label><br>
+            <input type="number" id="age" name="age" placeholder="Your age..">
+        </div>
+        <br>
+        <button>Send</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
 
-      <!-- 1. Internal Links
-      2. External Links
-      3. Same Page Links
-      hyper refernce==href
-           -->
-
-      <a href="about.html">About</a>
-      <a href="php/new.html">php / New</a>
-      <a href="https://www.google.com"target="-blank">Google</a>
-      <hr>
-      <a href="#about-us">About</a>
-      <a href="#contact-us">Contact</a>
-      <a href="#services">Services</a>
-
-      <h2 id="about-us" class="title t1 abc dd">About Us</h2>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente illo necessitatibus ex, quod, libero, voluptatum deserunt quibusdam laudantium magnam aliquid impedit dolore! Iste similique nulla pariatur ut voluptatibus, vitae qui rem debitis distinctio minima ratione libero. Voluptas rem culpa dolor voluptatem? Impedit dolor perferendis repudiandae nulla voluptatem aperiam minus vel possimus quam voluptas accusamus, dolore aliquid autem mollitia, ea dignissimos dolores rem minima similique aliquam pariatur sapiente quaerat. Similique nesciunt officiis vitae id autem ea magni cupiditate obcaecati numquam, ipsa rerum deleniti aliquam amet cumque tempora, qui fuga esse delectus consectetur sit facilis repellendus? Ab beatae praesentium vel, odio quae quibusdam porro dicta excepturi fugiat nam sapiente iure. Maxime fugit, ipsa nihil voluptatum distinctio unde temporibus sunt. Animi quod minima dignissimos incidunt mollitia deleniti illum doloribus voluptatum esse culpa. Dicta molestiae sapiente maxime, qui iure corporis possimus recusandae iste, dolorum voluptates earum, voluptatum in at praesentium eveniet aliquam unde eum tempora eos perferendis reprehenderit dignissimos. Incidunt in dicta magni cupiditate repudiandae ut esse dolore molestiae nesciunt impedit quia culpa officia distinctio magnam non nemo at dignissimos accusantium eligendi consequatur totam laudantium, sit explicabo minima! In at ipsam deleniti perferendis? Nemo minus illum fugiat quo nobis qui facere ad necessitatibus sint?</p>
-     <h2 id="contact-us" class="title t1 abc dd">contact Us</h2>
-     <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit officiis quis vero doloremque corporis quidem quo non labore cupiditate odio, possimus dicta iste necessitatibus nihil quia aut consequuntur sint dolores! At fuga ut dolorum quasi corporis, iure ratione et tenetur nihil. Laboriosam, voluptates dolores expedita accusamus repellat tempora perferendis delectus cum labore numquam itaque atque distinctio nesciunt doloremque quidem deserunt. Dicta inventore, corporis obcaecati aliquid adipisci libero. Accusamus quam in similique aspernatur laboriosam enim omnis accusantium. Repellat doloribus reiciendis cumque velit cupiditate omnis debitis quisquam, totam quod iste nemo perspiciatis maiores voluptatem, ipsam temporibus nihil quia commodi exercitationem quis dolorem consequuntur, quae reprehenderit! Rerum quo consectetur in dolorum fuga nostrum! Reiciendis voluptas quidem laudantium aliquam animi, ratione obcaecati omnis, molestiae blanditiis sed placeat dignissimos. Cupiditate ipsam dolorum quidem officia, quam, doloremque porro earum harum facere doloribus cum architecto laudantium aut illum labore eligendi deserunt sapiente nulla. Dignissimos adipisci eligendi nulla reiciendis vel error fugit laudantium dolor perspiciatis beatae mollitia consectetur minus similique reprehenderit alias enim assumenda dolores quae sapiente, quod illum totam esse! Quod ipsum in numquam tempore corrupti autem magni id dolores, nesciunt facere sunt, eligendi ducimus earum nam repellat aut accusantium aspernatur modi harum? Harum beatae voluptates ad.
-     </p>
-       <h2 id="services" class="title t1 abc dd">Services </h2>
-     <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit officiis quis vero doloremque corporis quidem quo non labore cupiditate odio, possimus dicta iste necessitatibus nihil quia aut consequuntur sint dolores! At fuga ut dolorum quasi corporis, iure ratione et tenetur nihil. Laboriosam, voluptates dolores expedita accusamus repellat tempora perferendis delectus cum labore numquam itaque atque distinctio nesciunt doloremque quidem deserunt. Dicta inventore, corporis obcaecati aliquid adipisci libero. Accusamus quam in similique aspernatur laboriosam enim omnis accusantium. Repellat doloribus reiciendis cumque velit cupiditate omnis debitis quisquam, totam quod iste nemo perspiciatis maiores voluptatem, ipsam temporibus nihil quia commodi exercitationem quis dolorem consequuntur, quae reprehenderit! Rerum quo consectetur in dolorum fuga nostrum! Reiciendis voluptas quidem laudantium aliquam animi, ratione obcaecati omnis, molestiae blanditiis sed placeat dignissimos. Cupiditate ipsam dolorum quidem officia, quam, doloremque porro earum harum facere doloribus cum architecto laudantium aut illum labore eligendi deserunt sapiente nulla. Dignissimos adipisci eligendi nulla reiciendis vel error fugit laudantium dolor perspiciatis beatae mollitia consectetur minus similique reprehenderit alias enim assumenda dolores quae sapiente, quod illum totam esse! Quod ipsum in numquam tempore corrupti autem magni id dolores, nesciunt facere sunt, eligendi ducimus earum nam repellat aut accusantium aspernatur modi harum? Harum beatae voluptates ad.
-     </p>
+    </form>
+    
+  
 </body>
 </html>
+
+
+   
